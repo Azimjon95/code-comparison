@@ -7,9 +7,7 @@ The goal of this code is to check whether a number `N` is odd or even and print 
 
 ## Approach 1: **Explicit Range Handling**
 
-## Approach 1: **Explicit Range Handling**
-
-```java
+~~~java
 public class FirstSnippet {
     public static void main(String[] args) {
         int N = 4; // Change this value for testing
@@ -26,7 +24,7 @@ public class FirstSnippet {
         }
     }
 }
-
+~~~
 Odd numbers: The code first checks if N is odd by using N % 2 == 1. If true, it prints "Weird".
 Even numbers: If N is even, it checks specific ranges:
 If N is between 2 and 5, it prints "Not Weird".
@@ -41,7 +39,7 @@ Slightly more verbose due to explicit range checks for even numbers.
 
 ## Approach 2: **Concise Range Handling**
 
-```java
+~~~java
 public class SecondSnippet {
     public static void main(String[] args) {
         int N = 4; // Change this value for testing
@@ -56,7 +54,7 @@ public class SecondSnippet {
         }
     }
 }
-
+~~~
 Odd numbers: The logic for checking odd numbers is the same: N % 2 == 1. If N is odd, it prints "Weird".
 Even numbers: For even numbers, this snippet uses simpler conditions:
 If N is less than or equal to 5, it prints "Not Weird".
