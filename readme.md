@@ -25,17 +25,27 @@ public class FirstSnippet {
     }
 }
 ~~~
-Odd numbers: The code first checks if N is odd by using N % 2 == 1. If true, it prints "Weird".
-Even numbers: If N is even, it checks specific ranges:
-If N is between 2 and 5, it prints "Not Weird".
-If N is between 6 and 20, it prints "Weird".
-If N is greater than 20, it prints "Not Weird".
-This approach gives a very clear and explicit distinction between different ranges for even numbers.
-Advantages:
-More detailed handling of specific even number ranges.
-Easy to understand and maintain when exact behavior is needed for different ranges.
-Disadvantages:
-Slightly more verbose due to explicit range checks for even numbers.
+
+### Logic Breakdown
+
+- **Odd Numbers:**  
+  The code first checks if `N` is odd by using `N % 2 == 1`. If true, it prints `"Weird"`.
+
+- **Even Numbers:**  
+  If `N` is even, it checks specific ranges:
+  - If `N` is between 2 and 5, it prints `"Not Weird"`.
+  - If `N` is between 6 and 20, it prints `"Weird"`.
+  - If `N` is greater than 20, it prints `"Not Weird"`.
+
+This approach provides a very clear and explicit distinction between different ranges for even numbers.
+
+### Advantages:
+- More detailed handling of specific even number ranges.
+- Easy to understand and maintain when exact behavior is needed for different ranges.
+
+### Disadvantages:
+- Slightly more verbose due to explicit range checks for even numbers.
+
 
 ## Approach 2: **Concise Range Handling**
 
@@ -55,14 +65,23 @@ public class SecondSnippet {
     }
 }
 ~~~
-Odd numbers: The logic for checking odd numbers is the same: N % 2 == 1. If N is odd, it prints "Weird".
-Even numbers: For even numbers, this snippet uses simpler conditions:
-If N is less than or equal to 5, it prints "Not Weird".
-If N is between 6 and 20, it prints "Weird".
-If N is greater than 20, it prints "Not Weird".
+### Logic Breakdown
+
+- **Odd Numbers:**  
+  The logic for checking odd numbers is the same: `N % 2 == 1`. If `N` is odd, it prints `"Weird"`.
+
+- **Even Numbers:**  
+  For even numbers, this snippet uses simpler conditions:
+  - If `N` is less than or equal to 5, it prints `"Not Weird"`.
+  - If `N` is between 6 and 20, it prints `"Weird"`.
+  - If `N` is greater than 20, it prints `"Not Weird"`.
+
 This approach is more compact but handles the ranges in a less explicit manner.
-Advantages:
-More concise and shorter code.
-Easier to write quickly, especially for simple cases.
-Disadvantages:
-Less explicit in terms of range boundaries, which can be less clear when dealing with edge cases or when maintaining larger codebases.
+
+### Advantages:
+- More concise and shorter code.
+- Easier to write quickly, especially for simple cases.
+
+### Disadvantages:
+- Less explicit in terms of range boundaries, which can be less clear when dealing with edge cases or when maintaining larger codebases.
+
