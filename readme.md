@@ -39,7 +39,6 @@ Slightly more verbose due to explicit range checks for even numbers.
 
 ## Approach 1: **Concise Range Handling**
 
-```java
 public class SecondSnippet {
     public static void main(String[] args) {
         int N = 4; // Change this value for testing
