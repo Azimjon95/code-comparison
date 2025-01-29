@@ -23,7 +23,7 @@ public class FirstSnippet {
             }
         }
     }
-}
+}```
 
 Odd numbers: The code first checks if N is odd by using N % 2 == 1. If true, it prints "Weird".
 Even numbers: If N is even, it checks specific ranges:
@@ -37,8 +37,9 @@ Easy to understand and maintain when exact behavior is needed for different rang
 Disadvantages:
 Slightly more verbose due to explicit range checks for even numbers.
 
-## Approach 1: **Concise Range Handling**
+## Approach 2: **Concise Range Handling**
 
+```java
 public class SecondSnippet {
     public static void main(String[] args) {
         int N = 4; // Change this value for testing
@@ -52,7 +53,7 @@ public class SecondSnippet {
             System.out.println("Not Weird");
         }
     }
-}
+}```
 
 Odd numbers: The logic for checking odd numbers is the same: N % 2 == 1. If N is odd, it prints "Weird".
 Even numbers: For even numbers, this snippet uses simpler conditions:
