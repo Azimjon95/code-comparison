@@ -7,7 +7,7 @@ The goal of this code is to check whether a number `N` is odd or even and print 
 
 ## Approach 1: **Explicit Range Handling**
 
-```java
+```
 public class FirstSnippet {
     public static void main(String[] args) {
         int N = 4; // Change this value for testing
@@ -39,7 +39,7 @@ Slightly more verbose due to explicit range checks for even numbers.
 
 ## Approach 2: **Concise Range Handling**
 
-```java
+```
 public class SecondSnippet {
     public static void main(String[] args) {
         int N = 4; // Change this value for testing
